@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_docs/src/ui/HelloWorld/index.dart';
+import 'package:flutter_docs/src/ui/HelloWorldWidget/index.dart';
 import 'package:flutter_docs/src/ui/Inicio/index.dart';
 
 // * Inicio de la clase de rutas y el manterial
@@ -14,7 +15,7 @@ class App {
       // ? runApp es el widget raiz
       title: 'Flutter Tutoriales',
       debugShowCheckedModeBanner: false, // ? Desactivamos el banner debug
-      home: new HelloWorld(),
+      home: new HelloWorldWidget(),
       routes: routes, // ? Pasamos las rutas
     ));
   }
